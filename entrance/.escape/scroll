@@ -1,0 +1,18 @@
+
+The Light at the end of the tunnel will get you to the easier *sea route* to the east. 
+Find the right tunnel.
+
+
+Kill all the monsters so that they can't follow you.
+
+To find all the monsters
+
+$ ls *.monsters
+
+To Kill all the monsters  cast the 'rm' spell
+
+
+Use the `grep` spell to search across items (files) in the room (folder).
+
+$ grep 'bats' tunnel*
+

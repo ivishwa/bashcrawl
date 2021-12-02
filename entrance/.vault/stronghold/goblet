@@ -33,15 +33,7 @@ printf "Are you stuck? Do you need a hint? y/n  "
 read RESP
 
 if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
-    cat << EOF
-Try searching opensource.com for hints on how to copy files.
-
-EOF
-    printf "Still stuck? Do you need the answer? y/n  "
-    read RESP
-
-    if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
-        cat << EOF
+cat << EOF
 The cp command copies one file to another. Run these
 commands:
 
@@ -51,7 +43,6 @@ cp orb1 orb3
 And then run this goblet script again for confirmation.
 
 EOF
-    fi
 fi
 
 

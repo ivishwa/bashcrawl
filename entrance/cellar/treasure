@@ -31,7 +31,7 @@ EOF
     mv ../.chapel ../chapel 2>/dev/null
     mv ../.vault ../vault 2>/dev/null
     mv ../.scrap ../scrap 2>/dev/null
-    mv ../../.escape ../../escape 2>/dev/null
+    mv ../.escape ../escape 2>/dev/null
 else
     echo "This treasure has already been taken."
 fi
